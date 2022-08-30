@@ -1,0 +1,55 @@
+* {
+    margin: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 1300px;
+}
+.line {
+    border:1px solid black;
+}
+
+.green-circle {
+    width: 30px;
+    height:30px;
+    background-color: rgb(27,172,110);
+    border-radius: 50%;
+    margin: 0px;
+}
+
+.green-circle, p {
+    display: inline-block;
+    margin: 0px;
+}
+
+p {
+margin-left: 20px;
+position: absolute;
+top:7px;
+font-weight: 800;
+
+}
+
+.container {
+    position:relative;
+}
+
+.main-text {
+    position: relative;
+    top: 20px;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+}
+
+span {
+    border: 1px solid red;
+    border-radius: 70%;
+    padding: 30px;
+
+}
